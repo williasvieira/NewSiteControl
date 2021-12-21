@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    --header-color: #394048
+  }
+  
+  .bg-primary-color {
+    background-color: #fff;
+  }
+  
+  .bg-secondary-color {
+    background-color: #ece8e2;
+  }
+  
+  .bg-dark-color {
+    background-color: #050505;
+  }
+  
+  .primary-color {
+    color: #050505;
+  }
+  
+  .secondary-color {
+    color: #000000;
+  }
+  
+  /* NAVBAR */
+  #navbar {
+    border-bottom: 1px solid #7a7a7a;
+    
+
+  }
+  
+  #navbar a {
+    color:var(--header-color);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #navbar a:hover {
+    color: #0C6DB3;
+    
+  }
+  
+  #navbar .active {
+    border-bottom: 1px solid #050505;
+    
+  }
+  
+  .navbar-brand {
+    display: flex;
+  }
+  
+  .navbar-brand img {
+    width: 223px;
+    height: 49px;
+
+  }
+  
+  .navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+  }
+  
+  #navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  
+  #navbar-items .nav-item {
+    margin: 0 1em;
+  }
